@@ -1,0 +1,179 @@
+/*
+Theme Name : Bibliotheme
+Author : Melanie Geerts
+Description : Theme créé pour la bibliothèque
+Version : 1.0
+*/
+.container {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    
+}
+
+#sidebar {
+    max-width: 30vw;
+}
+
+.nav {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content {
+    background-color: greenyellow;
+    
+}
+
+section.articles {
+    max-width: 70vw;
+    min-width: 60vw;
+}
+
+section.articles > article, .container > article {
+    padding : 10px;
+    border: 2px solid black;
+    background-color: tomato;
+}
+
+/* Nav */
+#primary-menu {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: #444444;
+}
+.navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar li {
+    height: auto;
+    width: 200px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #444444;
+}
+.navbar a {
+    padding: 18px 0;
+    
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.navbar li:hover,
+a:hover {
+    background-color: #444444;
+}
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.navbar li:hover ul {
+    display: block;
+}
+.navbar li ul li {
+    background-color: #444444;
+}
+.navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+}
+.navbar li ul li a:hover {
+    background-color: #a3a1a1;
+}
+
+/* Fin de nav */
+
+.content figure {
+    border:1px solid black;
+    border-radius: 10px;
+    padding : 10px;
+    width: 200px;
+}
+
+.content figure a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.content figure a img {
+    margin: auto;
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.inline {
+	display : flex;
+	flex-direction: row;
+	padding-bottom: 5%;
+}
+
+
+.inline img{
+	width: auto;
+	max-height: 170px;
+	padding-right: 5px;
+}
+
+.inline table {
+	width : 65%;
+	height: auto;
+}
+
+#resume ~ p {
+	text-align:justify;
+}
+
+
+/* footer */
+footer {
+    background-color: grey;
+}
+
+footer aside.widget-area {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer aside.widget-area .widget-column{
+    background-color: magenta;
+    width: 45vw;
+}
+
+footer p {
+    background-color: grey;
+    color : white;
+    text-align: center;
+}

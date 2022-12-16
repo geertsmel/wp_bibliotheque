@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body > .container {
+  padding: 20px;
+  background-color: white;
+}
+body > header > nav {
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+body > header > nav > ul#primary-menu {
+  display: flex;
+}
+body > header > nav > ul#primary-menu li {
+  height: 50px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+body > header > nav > ul#primary-menu li a {
+  text-decoration: none;
+  color: #23AC67;
+}
+body > header > nav > ul#primary-menu li a:hover {
+  color: #9C1100;
+}
+body > header > nav > ul#primary-menu li.current-menu-item > a, body > header > nav > ul#primary-menu li.current-menu-parent > a {
+  color: #9C1100;
+  text-decoration: underline;
+}
+body > header > nav > ul#primary-menu li .sub-menu {
+  display: none;
+  background-color: white;
+  z-index: 1000;
+}
+body > header > nav > ul#primary-menu li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  border: 1px solid black;
+}
+body > header > nav > ul#primary-menu li:hover .sub-menu > li {
+  border-bottom: 1px solid black;
+}
+
+/*# sourceMappingURL=main.css.map */
