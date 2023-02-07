@@ -10,7 +10,7 @@
 </head>
 <body <?php body_class(); ?>>
     <header>
-        <?php get_template_part( 'header/header', 'image' ); ?>
+        
         <nav id="primary-menu">
         <?php wp_nav_menu([
             'theme_location' => 'primary',
@@ -20,7 +20,7 @@
             // 'item_spacing' => 'preserve',
         ]); ?>
         </nav>
-        
+        <?php get_template_part( 'header/header', 'image' ); ?>
     </header>
     
 

@@ -4,6 +4,11 @@ Author : Melanie Geerts
 Description : Theme créé pour la bibliothèque
 Version : 1.0
 */
+
+* {
+    margin : 0;
+    padding: 0;
+}
 .container {
     background-color: lightblue;
     display: flex;
@@ -42,6 +47,8 @@ section.articles > article, .container > article {
     z-index: 99;
     position: relative;
     background-color: #444444;
+    position: fixed;
+    z-index: 20;
 }
 .navbar {
     height: 50px;
@@ -214,15 +221,19 @@ ol.comment-list > li:nth-child(even){
 /* header*/
 .wp-custom-header img {
     width: 100vw;
-    max-height: 120px;
+    height: 100vh;
 }
 .site-branding {
-    
     position: absolute;
-    top:10px;
-    left: 10px;
+    top:0;
+    left: 0;
     z-index:10;
-    padding :0 10px; 
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .site-title a {
