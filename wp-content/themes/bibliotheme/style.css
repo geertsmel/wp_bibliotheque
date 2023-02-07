@@ -16,13 +16,7 @@ Version : 1.0
     max-width: 30vw;
 }
 
-.nav {
-    background-color: yellow;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
+
 
 .content {
     background-color: greenyellow;
@@ -176,4 +170,62 @@ footer p {
     background-color: grey;
     color : white;
     text-align: center;
+}
+/* commentaires */
+
+ol.comment-list > li {
+    border : 1px solid black;
+    border-radius: 15px;
+}
+
+ol.comment-list > li:nth-child(even){
+    background-color: white;
+}
+
+.comment-author img{
+    border-radius: 50px;
+}
+
+.comment-author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.reply {
+    
+    border: 1px solid black;
+    background-color: gray;
+    padding: 10px
+}
+
+.reply a {
+    text-decoration: none;
+}
+
+/* header*/
+.wp-custom-header img {
+    width: 100vw;
+    max-height: 120px;
+}
+.site-branding {
+    
+    position: absolute;
+    top:10px;
+    left: 10px;
+    z-index:10;
+    padding :0 10px; 
+}
+
+.site-title a {
+    color: white;
+    text-decoration: none;
 }
