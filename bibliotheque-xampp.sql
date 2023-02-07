@@ -103,7 +103,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (3, 'blogname', 'Bibliothèque', 'yes'),
 (4, 'blogdescription', 'La bibliothèque communale', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
-(6, 'admin_email', 'geertsmel@gmail.com', 'yes'),
+(6, 'admin_email', 'melanie.geerts@bstorm.be', 'yes'),
 (7, 'start_of_week', '1', 'yes'),
 (8, 'use_balanceTags', '0', 'yes'),
 (9, 'use_smilies', '1', 'yes'),
@@ -218,7 +218,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (152, 'generate_migration_settings', 'a:5:{s:31:\"font_awesome_essentials_updated\";s:4:\"true\";s:22:\"skip_dynamic_css_cache\";s:4:\"true\";s:20:\"default_font_updated\";s:4:\"true\";s:25:\"blog_post_content_preview\";s:4:\"true\";s:11:\"combine_css\";s:4:\"done\";}', 'yes'),
 (153, 'generate_db_version', '2.3.2', 'no'),
 (154, 'generate_update_core_typography', 'true', 'yes'),
-(163, 'new_admin_email', 'geertsmel@gmail.com', 'yes'),
+(163, 'new_admin_email', 'melanie.geerts@bstorm.be', 'yes'),
 (181, 'category_children', 'a:0:{}', 'yes'),
 (185, 'generate_settings', 'a:9:{s:10:\"text_color\";s:7:\"#000000\";s:10:\"link_color\";s:7:\"#e21f39\";s:16:\"link_color_hover\";s:7:\"#f1c40f\";s:18:\"link_color_visited\";s:7:\"#8e44ad\";s:11:\"retina_logo\";s:0:\"\";s:10:\"logo_width\";i:800;s:10:\"hide_title\";b:1;s:12:\"hide_tagline\";b:1;s:11:\"combine_css\";b:0;}', 'yes'),
 (199, 'nav_menu_options', 'a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}', 'yes'),
@@ -233,7 +233,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (584, '_transient_twentyseventeen_categories', '2', 'yes'),
 (779, 'genre_de_livre_children', 'a:1:{i:25;a:3:{i:0;i:21;i:1;i:27;i:2;i:28;}}', 'yes'),
 (1212, 'auteur_children', 'a:0:{}', 'yes'),
-(2502, 'auto_core_update_notified', 'a:4:{s:4:\"type\";s:7:\"success\";s:5:\"email\";s:19:\"geertsmel@gmail.com\";s:7:\"version\";s:6:\"5.2.17\";s:9:\"timestamp\";i:1669044091;}', 'no'),
+(2502, 'auto_core_update_notified', 'a:4:{s:4:\"type\";s:7:\"success\";s:5:\"email\";s:19:\"melanie.geerts@bstorm.be\";s:7:\"version\";s:6:\"5.2.17\";s:9:\"timestamp\";i:1669044091;}', 'no'),
 (2579, 'widget_bcn_widget', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (2580, 'bcn_version', '6.3.0', 'no'),
 (2610, 'weglot_version', '3.0.6', 'yes'),
@@ -2644,7 +2644,7 @@ CREATE TABLE `wp_users` (
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'admin', '$P$Bm2uEu4NXp7N71lBnMDxgVul6etlmy.', 'admin', 'geertsmel@gmail.com', 'http://localhost/bibliotheque', '2019-06-07 07:34:55', '', 0, 'admin');
+(1, 'admin', '$P$Bm2uEu4NXp7N71lBnMDxgVul6etlmy.', 'admin', 'melanie.geerts@bstorm.be', 'http://localhost/bibliotheque', '2019-06-07 07:34:55', '', 0, 'admin');
 
 --
 -- Index pour les tables déchargées
